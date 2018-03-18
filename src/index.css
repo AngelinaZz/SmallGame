@@ -1,0 +1,8 @@
+#saveButton{
+    -fx-background-color: white;
+    -fx-border-color: grey;
+}
+#saveButton:hover{
+    -fx-background-color: grey;
+
+}

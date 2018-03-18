@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="374.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPaneController">
+   <children>
+      <ImageView fx:id="backImg" fitHeight="456.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="humanImg" fitHeight="255.0" fitWidth="140.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         </image>
+      </ImageView>
+      <Label fx:id="juqingLabel" layoutY="387.0" prefHeight="63.0" prefWidth="600.0" style="-fx-background-color: white;" text="Label" />
+      <Label fx:id="nameLabel" layoutY="365.0" prefHeight="23.0" prefWidth="78.0" style="-fx-background-color: white;" text="Label" />
+      <Button fx:id="continueButton" layoutX="525.0" layoutY="419.0" mnemonicParsing="false" onAction="#continueAction" text="continue" />
+   </children>
+</AnchorPane>

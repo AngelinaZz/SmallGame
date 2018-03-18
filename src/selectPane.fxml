@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="224.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SelectPaneController">
+   <children>
+      <Button fx:id="button3" layoutX="51.0" layoutY="158.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="229.0" text="Button" />
+      <Button fx:id="button2" layoutX="51.0" layoutY="103.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="229.0" text="Button" />
+      <Button fx:id="button1" layoutX="51.0" layoutY="45.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="229.0" text="Button" />
+   </children>
+</AnchorPane>
